@@ -6,3 +6,4 @@
 
 include_recipe 'chef-client::default'
 include_recipe 'segulja_users::default'
+include_recipe 'segulja_packages::default'
