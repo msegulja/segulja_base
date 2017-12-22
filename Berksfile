@@ -4,5 +4,6 @@ cookbook 'segulja_dns', path: '/home/michael/code/segulja/cookbooks/segulja_dns'
 cookbook 'segulja_users', path: '/home/michael/code/segulja/cookbooks/segulja_users'
 cookbook 'segulja_packages', path: '/home/michael/code/segulja/cookbooks/segulja_packages'
 cookbook 'segulja_sudo', path: '/home/michael/code/segulja/cookbooks/segulja_sudo'
+cookbook 'segulja_autofs', path: '/home/michael/code/segulja/cookbooks/segulja_autofs'
 
 metadata
