@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures segulja_base'
 long_description 'Installs/Configures segulja_base'
-version '0.2.6'
+version '0.3.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
 depends 'chef-client'
@@ -12,6 +12,7 @@ depends 'segulja_users'
 depends 'segulja_packages'
 depends 'segulja_sudo'
 depends 'segulja_autofs'
+depends 'segulja_hostfile'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when

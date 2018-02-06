@@ -5,5 +5,6 @@ cookbook 'segulja_users', path: '~/code/segulja/cookbooks/segulja_users'
 cookbook 'segulja_packages', path: '~/code/segulja/cookbooks/segulja_packages'
 cookbook 'segulja_sudo', path: '~/code/segulja/cookbooks/segulja_sudo'
 cookbook 'segulja_autofs', path: '~/code/segulja/cookbooks/segulja_autofs'
+cookbook 'segulja_hostfile', path: '~/code/segulja/cookbooks/segulja_hostfile'
 
 metadata
