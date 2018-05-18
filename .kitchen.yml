@@ -18,8 +18,7 @@ verifier:
   name: inspec
 
 platforms:
-  - name: centos-7
-  - name: bento/oracle-7.3
+  - name: bento/oracle-7.4
 
 suites:
   - name: dnsclient
