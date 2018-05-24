@@ -8,6 +8,7 @@ version '0.3.4'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
 depends 'chef-client'
+depends 'segulja_dns'
 depends 'segulja_users'
 depends 'segulja_packages'
 depends 'segulja_sudo'
